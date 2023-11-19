@@ -1,0 +1,53 @@
+.container{
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5rem;
+    width: 100%;
+    
+}
+.abs{
+    position: absolute;
+    top: 16rem;
+    transform: rotate(90deg);
+    right: 0;
+}
+
+.header_socials{
+    position: fixed;
+    left:3px;
+
+}
+
+.alert::before{
+    content: "";
+    position: absolute;
+    background-color:yellow;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(45deg);
+    bottom: -7px;
+    left: 1rem;
+    z-index: -1;
+}
+.alert{
+    background-color: yellow;
+    display: inline;
+   padding: .3rem 1rem;
+   color: black;
+   position: relative;
+}
+.cta{
+    margin-top: .6rem;
+}
+
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    left: 1rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,38 @@
+.me{
+  height: 18rem;
+  width: 12rem;
+  background-image: linear-gradient(to bottom, rgba(0, 140, 255, 0.655), rgba(0, 0, 255, 0));
+  padding-top: 3.4rem;
+  border-radius: 12rem 12rem 0 0 ;
+  box-shadow: -2px -7px 20px rgb(22, 209, 226);
+  
+
+}
+
+.outer-container{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7rem;
+  
+  
+}
+.nav{
+  margin-top: 1rem;
+  width: 100vw;
+  padding: 2rem;
+  border-bottom: 2px solid blue;
+  
+}
+.cards{
+  height: 100vh;
+  
+  
+}
+
+
+.btn-pro{
+  background-color: transparent;
+  font-size: medium;
+}
